@@ -48,4 +48,57 @@ body {
 
 }
 
+.main {
+    background-color: rgb(12,16,59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainHeadline {
+    
+}
+.padding64 {
+   padding: 64px;
+}
+
+.table img {
+    width: 1000px;
+    height: auto;
+}
+.softwareContent {
+    padding-bottom: 64px;
+}
+
+.footer {
+    background-color: rgb(12,16,59);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 32px;
+    align-items: center;
+    padding-bottom: 8px;
+    color: white;
+    cursor: pointer;
+   
+}
+
+.footer img {
+    
+}
+
+.footerIconsLeft {
+    align-items: center;
+    display: flex;
+}
+
+.socialIcons{   
+    padding:24px;
+    
+}
+
+.footerIconsright{
+    display: flex;
+}
 
