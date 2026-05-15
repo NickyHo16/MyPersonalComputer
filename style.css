@@ -63,12 +63,30 @@ body {
    padding: 64px;
 }
 
+.table {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 64px;
+}
+
 .table img {
-    width: 1000px;
+    width: 530px;
     height: auto;
 }
 .softwareContent {
-    padding-bottom: 64px;
+    
+}
+
+.usedSoftware{
+    display: contents;
+}
+
+.usedSoftware p {
+    padding-bottom: 56px;
+    color: white;
 }
 
 .footer {
