@@ -75,6 +75,16 @@ body {
     /*padding-bottom: 64px;*/
 }
 
+.lerningPathStructure{
+    display: flex;
+    justify-content: center;
+}
+
+.laptopParagraph{
+    color: white;
+
+}
+
 .table img {
     width: 530px;
     height: auto;
