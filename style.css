@@ -89,6 +89,11 @@ body {
     padding-bottom: 28px;
 }
 
+.w3buttonstyle{
+    width: 150px;
+    height: auto;
+}
+
 .table img {
     width: 530px;
     height: auto;
@@ -193,12 +198,28 @@ body {
 
 }
 
-@media (max-width: 550px) {
+@media (max-width: 575px) {
 
-    .usedSoftware img { /*media bearbeiten*/
-        width: 450px;
+    .table img {
+        width: 400px;
+        height: auto;
+}
+
+    .lerningPathStructure img {
+        width: 410px;
         height: auto;
     }
+
+    .laptopParagraph p {
+        max-width: 400px;
+    }
+
+    .w3buttonstyle{
+        width: 150px!important;
+        height: auto;
+}
+
+   
 
 }
 
